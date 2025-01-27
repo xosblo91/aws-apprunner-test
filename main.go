@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/google/uuid"
 )
 
 func main() {
@@ -23,6 +25,8 @@ func main() {
 		// If credentials are valid, respond with Hello, World!
 		fmt.Fprintln(w, "Hello, World!")
 	})
+
+	log.Println(uuid.NewString())
 
 	// Start the server on port 8080
 	log.Println("Server listening on :8080")
