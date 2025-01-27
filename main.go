@@ -13,7 +13,7 @@ func main() {
 		username, password, ok := r.BasicAuth()
 
 		// Check for credentials and validate
-		if !ok || username != "testuser" || password != "testpass" {
+		if !ok || username != "dfngdufngundfuigndf" || password != "kdfmkgdfmg8484848///" {
 			// If invalid, ask client for credentials again
 			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
 			http.Error(w, "Unauthorized", http.StatusUnauthorized)
