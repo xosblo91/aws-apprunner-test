@@ -1,0 +1,59 @@
+###############################################################################
+# macOS
+###############################################################################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.DS_Store?
+
+###############################################################################
+# Go (Golang)
+###############################################################################
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build output directories
+bin/
+build/
+
+# If you don’t want to commit your dependencies (Go Modules typically handles vendoring)
+vendor/
+
+# Go tools
+cover.out
+coverage.out
+
+# Logs
+*.log
+
+###############################################################################
+# JetBrains/GoLand
+###############################################################################
+.idea/
+*.iml
+*.iws
+out/
+# Uncomment if you have any local run configurations you don't want tracked
+# .run/
+
+###############################################################################
+# General editor / environment files
+###############################################################################
+# If you use additional editors or tools, ignore their project files:
+*.swp
+*.swo
+*~
+*#
